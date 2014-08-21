@@ -1,0 +1,9 @@
+// $('.bookNoWd').on('click',function(e){
+//   e.preventDefault();
+//   $('#popup_box').fadeIn();
+// });
+// $('#popupBoxClose').on('click',function(e){
+//   e.preventDefault();
+//   $('#popup_box').fadeOut();
+// });
+// $(".bookNoWd").fancybox();

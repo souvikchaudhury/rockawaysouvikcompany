@@ -1,0 +1,73 @@
+<!-- 
+www.TechNotz.Info
+Designed: "Sridhar"
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>TechNotz Captcha verification</title>
+  <link rel="stylesheet" href="style/base.css" type="text/css" media="screen">
+  <link rel="stylesheet" id="current-theme" href="style/style.css" type="text/css" media="screen">    
+</head>
+<body>
+  <div id="container">
+        <div id="box">
+          <div class="block" id="block-signup">
+        <h2>Sign up</h2>
+        <div class="content">
+          <form action="submit.php" class="form" method="post">
+            <div class="group wat-cf">
+              <div class="left">
+                <label class="label">Login</label>
+              </div>
+              <div class="right">
+                <input type="text" class="text_field">
+                    </div>
+		</div>
+            
+            <div class="group wat-cf">
+              <div class="left">
+                <label class="label">Password</label>
+              </div>
+              <div class="right">
+                <input type="password" class="text_field">
+              </div>
+            </div>
+			
+			<div class="group wat-cf">
+              <div class="left">
+                <label class="label">Retype Password</label>
+              </div>
+              <div class="right">
+                <input type="password" class="text_field">
+              </div>
+            </div>
+						
+			<div class="group wat-cf">
+              <div class="left">
+                <label class="label">Email</label>
+              </div>
+              <div class="right">
+				<input type="text" class="text_field">
+              </div>
+			</div>
+			<div class="group wat-cf">
+              <div class="left">
+                <label class="label">Captcha:</label>
+              </div>
+              <div class="right">
+				<input type="text" name="vercode" /><img src="captcha.php">
+				</div>
+			</div>
+            <div class="group navform wat-cf">
+              <button class="button" type="/submit" >
+                <img src="images/tick.png" alt="Save"> Signup
+              </button>
+			</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

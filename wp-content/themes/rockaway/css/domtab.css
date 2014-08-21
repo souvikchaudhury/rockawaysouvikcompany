@@ -1,0 +1,138 @@
+		*{
+			margin:0;
+			padding:0;
+			list-style:none;
+			border:none;
+		}
+		
+		
+		
+		ul.domtabs{
+			float:left;
+			width:100%;
+			margin:2em 0 0 0; position:absolute; bottom:0; left:0;		
+		}
+		ul.domtabs li{
+			float:left; margin-left:-1px;
+					}
+ul.domtabs li.last_tab a{border-right:none !important; width:39px;
+
+ }		
+	
+		ul.domtabs a:link,
+		ul.domtabs a:visited,
+		ul.domtabs a:active,
+		ul.domtabs a:hover{
+			padding:11px 14px 11px 12px ;
+			display:block;
+			background:#f6f6f6;
+			color:#373737;
+			text-decoration:none;
+			border:solid 1px #CCC;
+			text-transform:uppercase;
+			font:12px 'sansationregular'; border-bottom:none;
+		}
+	
+		ul.domtabs li.last_tab a{ padding-right:14px\9 !important; border-right:none\9 !important;}		
+ul.domtabs li.last_tab a{ *padding-right:14px !important; *border-right:none !important;}		
+		
+ 	
+		html>body ul.domtabs a:link,
+		html>body ul.domtabs a:visited,
+		html>body ul.domtabs a:active,
+		html>body ul.domtabs a:hover{
+			height:auto;
+					}
+		ul.domtabs a:hover{
+			background:#696;
+		}
+		div.domtab div{
+			clear:both;
+			width:auto;
+			background:#696;
+			color:#000;
+			padding:1em 3em;
+		}
+		ul.domtabs li.active a:link,
+		ul.domtabs li.active a:visited,
+		ul.domtabs li.active a:active,
+		ul.domtabs li.active a:hover{
+			background:#696;
+			color:#fff;
+		}
+		#domtabprintview{
+			float:right;
+			padding-right:1em;
+			text-align:right;
+		}
+		#domtabprintview a:link,
+		#domtabprintview a:visited,
+		#domtabprintview a:active,
+		#domtabprintview a:hover{
+			color:#fff;
+		}
+		
+		
+		pre{
+			font-size:1.2em;
+			padding:1em;
+		}
+		
+		div.domtab div h2 a,
+		div.domtab div h2 a:hover,
+		div.domtab div h2 a:active
+		{
+			color:#cfc;
+			display:inline;
+			padding:0;
+			font-weight:normal;
+			font-size:1em;
+		}
+		
+/* other scheme! */
+#other{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    float: right;
+    margin-bottom: 17px;
+    width: 320px;
+	position:relative;
+}
+div#other.domtab div{
+	clear:both;
+	width:294px;
+	background:#FFFFFF;
+	color:#000;
+	padding:0 13px 14px; min-height: 232px;
+}
+		
+#other ul.domtabs a:hover{
+	background:#FFFFFF;
+}
+div#other ul.domtabs li.active a:link,
+div#other ul.domtabs li.active a:visited,
+div#other ul.domtabs li.active a:active,
+div#other ul.domtabs li.active a:hover{
+	background:#fff !important;
+	color:#373737;
+}
+#other div{
+	float:left;
+}
+ul.prevnext{
+	float:left;
+	width:100%; display:none;
+}
+ul.prevnext li{
+	float:left;
+	width:49%;
+}
+ul.prevnext li.next{
+	float:right;
+	text-align:right;
+}
+#content_area_inner {
+    float: left;
+    padding: 21px 25px;
+    width: 946px;
+}
